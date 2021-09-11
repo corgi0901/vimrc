@@ -28,3 +28,12 @@ nnoremap <silent> <Tab><Tab> "zyiw:execute("vim /\\v<" . @z . ">/ **/*.* \| cw")
 " highlight word at cursor
 nnoremap <silent> <Space><Space> "zyiw:let @/ = '\<' . @z . '\>'<CR>:set hlsearch<CR>
 nnoremap <silent> <Esc><Esc> :noh<CR>
+
+" Launch netrw
+noremap <F1> :e .<CR>
+
+" netrw settings
+let g:netrw_liststyle = 1
+let g:netrw_banner = 0
+let g:netrw_sizestyle = "H"
+let g:netrw_timefmt = "%Y/%m/%d(%a) %H:%M:%S"
