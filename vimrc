@@ -2,6 +2,7 @@
 set number
 set tabstop=4
 set cursorline
+set laststatus=2
 
 " Syntax highlight
 syntax on
