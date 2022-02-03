@@ -33,6 +33,10 @@ nnoremap <silent> <Esc><Esc> :noh<CR>
 " Launch netrw
 noremap <F1> :e .<CR>
 
+" Binary mode
+noremap <F2> :%!xxd <CR>
+noremap <F3> :%!xxd -r <CR>
+
 " netrw settings
 let g:netrw_liststyle = 1
 let g:netrw_banner = 0
